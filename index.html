@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f5f1">
+  <meta name="description" content="우종선의 개발 포트폴리오. 직접 만들고 운영하는 HeyTowner, MW GOBLIN과 프로젝트들을 만나보세요.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="우종선 · Independent Developer">
+  <meta property="og:description" content="직접 만들고 운영하는 서비스들을 모았습니다. HeyTowner · MW GOBLIN">
+  <meta property="og:url" content="https://verticalline111.github.io/">
+  <link rel="canonical" href="https://verticalline111.github.io/">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23252724'/%3E%3Cpath d='M21 20v24m11-30v36m11-30v24' stroke='%23d5e6bc' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E">
+  <title>우종선 · Independent Developer</title>
+  <style>
+    :root { color-scheme: light; --ink:#252724; --muted:#696d64; --paper:#f6f5f1; --line:#e4e5dd; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--paper); color:var(--ink); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans KR",sans-serif; -webkit-font-smoothing:antialiased; }
+    a { color:inherit; }
+    a:focus-visible { outline:3px solid #547443; outline-offset:5px; }
+    .skip { position:absolute; top:12px; left:12px; transform:translateY(-160%); background:white; padding:12px; border-radius:8px; }
+    .skip:focus { transform:translateY(0); }
+    main { width:min(100% - 40px,560px); margin:0 auto; padding:76px 0 32px; }
+    .profile { text-align:center; }
+    .mark { display:grid; place-items:center; width:76px; height:76px; margin:0 auto 24px; border-radius:24px; background:var(--ink); color:#d5e6bc; box-shadow:0 5px 0 #e3e6dc; }
+    .mark svg { width:42px; height:42px; }
+    .handle { margin:0 0 11px; color:var(--muted); font-family:ui-monospace,SFMono-Regular,Consolas,monospace; font-size:12px; letter-spacing:.02em; }
+    h1 { font-size:30px; letter-spacing:-1.2px; margin:0; font-weight:720; }
+    .role { font-size:14px; margin:10px 0 0; color:var(--muted); }
+    .intro { font-size:15px; line-height:1.75; margin:24px 0 0; word-break:keep-all; }
+    .socials { display:flex; justify-content:center; gap:8px; margin-top:22px; }
+    .socials a { display:inline-flex; gap:7px; align-items:center; min-height:40px; padding:9px 13px; border:1px solid var(--line); border-radius:100px; text-decoration:none; font-size:12px; background:#ffffff70; transition:background .18s; }
+    .socials a:hover { background:#fff; }
+    .socials svg { width:15px; height:15px; }
+    .projects { margin-top:49px; }
+    .section-title { display:flex; justify-content:space-between; align-items:center; margin:0 2px 14px; }
+    h2 { margin:0; font-size:11px; font-weight:650; letter-spacing:2px; }
+    .section-title span { color:var(--muted); font-size:11px; }
+    .project-list { list-style:none; margin:0; padding:0; display:grid; gap:13px; }
+    .project { display:flex; align-items:center; gap:18px; padding:23px 22px; border:1px solid var(--line); border-radius:19px; background:#fff; text-decoration:none; box-shadow:0 3px 0 #e9eae3; transition:transform .18s,border-color .18s,box-shadow .18s; }
+    .project:hover { transform:translateY(-3px); border-color:#b6c4ab; box-shadow:0 6px 0 #e3e7dc; }
+    .icon { width:52px; height:52px; flex-shrink:0; border-radius:15px; display:grid; place-items:center; }
+    .icon svg { width:27px; height:27px; }
+    .hey { background:#f1e8ff; color:#7752ac; }
+    .mw { background:#e8efdd; color:#52713a; }
+    .copy { flex:1; min-width:0; }
+    h3 { margin:0; font-size:18px; letter-spacing:-.3px; }
+    .description { margin:7px 0 0; font-size:13px; line-height:1.6; color:var(--muted); word-break:keep-all; }
+    .domain { display:block; margin-top:10px; font:11px ui-monospace,SFMono-Regular,Consolas,monospace; color:#72776a; }
+    .arrow { align-self:flex-start; color:#7e8475; font-size:20px; line-height:1; }
+    footer { margin-top:44px; padding-top:22px; border-top:1px solid var(--line); display:flex; justify-content:space-between; gap:12px; font-size:11px; color:#72776a; }
+    footer span:last-child { font-family:ui-monospace,SFMono-Regular,Consolas,monospace; }
+    @media (max-width:480px) { main { width:calc(100% - 36px); padding-top:44px; } .projects { margin-top:38px; } .project { padding:20px 17px; gap:14px; } .icon { width:45px; height:45px; border-radius:13px; } h1 { font-size:28px; } h3 { font-size:17px; } .description { font-size:12px; } footer { margin-top:34px; } }
+    @media (prefers-reduced-motion:reduce) { *,*::before,*::after { transition:none!important; } .project:hover { transform:none; } }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#projects">프로젝트 바로가기</a>
+  <main>
+    <header class="profile">
+      <div class="mark" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none"><path d="M12 13v22M24 7v34M36 13v22" stroke="currentColor" stroke-width="4" stroke-linecap="round"/></svg></div>
+      <p class="handle">@verticalLine111</p>
+      <h1>우종선</h1>
+      <p class="role">Independent Developer</p>
+      <p class="intro">아이디어를 서비스로 만들고, 운영합니다.<br>직접 만든 프로젝트들을 여기 모았습니다.</p>
+      <nav class="socials" aria-label="프로필 링크">
+        <a href="https://github.com/verticalLine111" target="_blank" rel="noopener noreferrer" aria-label="GitHub 프로필 (새 탭)"><svg aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .8a11.2 11.2 0 0 0-3.54 21.83c.56.1.77-.24.77-.54v-2.08c-3.13.68-3.79-1.33-3.79-1.33-.51-1.3-1.25-1.65-1.25-1.65-1.02-.7.08-.69.08-.69 1.13.08 1.72 1.16 1.72 1.16 1 1.72 2.63 1.22 3.27.93.1-.72.39-1.22.71-1.5-2.5-.28-5.13-1.25-5.13-5.57 0-1.23.44-2.23 1.16-3.02-.12-.28-.5-1.43.11-2.98 0 0 .94-.3 3.08 1.15a10.72 10.72 0 0 1 5.61 0c2.14-1.45 3.08-1.15 3.08-1.15.61 1.55.23 2.7.11 2.98.72.79 1.16 1.79 1.16 3.02 0 4.33-2.64 5.28-5.15 5.56.4.35.76 1.03.76 2.08v3.09c0 .3.2.65.78.54A11.2 11.2 0 0 0 12 .8Z"/></svg>GitHub</a>
+        <a href="https://www.linkedin.com/in/jswoo111" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn 프로필 (새 탭)"><svg aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M5.4 7.6H1.8V22h3.6V7.6ZM3.6 2a2.1 2.1 0 1 0 0 4.2 2.1 2.1 0 0 0 0-4.2ZM22 13.3c0-4.3-2.3-6.3-5.3-6.3-2.4 0-3.5 1.3-4.1 2.2V7.6H9V22h3.6v-8c0-2.1.4-4.1 3-4.1s2.8 2.4 2.8 4.2V22H22v-8.7Z"/></svg>LinkedIn</a>
+      </nav>
+    </header>
+    <section class="projects" id="projects" aria-labelledby="projects-heading">
+      <div class="section-title"><h2 id="projects-heading">PROJECTS</h2><span>만들고 운영하는 것들</span></div>
+      <!-- 새 서비스를 추가하려면 아래 li 항목을 복사하고 이름, 설명, URL을 수정하세요. -->
+      <ul class="project-list">
+        <li><a class="project" href="https://heytowner.com" target="_blank" rel="noopener noreferrer" aria-label="HeyTowner — 내 주변의 중고거래와 동네 커뮤니티 (새 탭)">
+          <span class="icon hey" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="m5 14 11-9 11 9v12a1 1 0 0 1-1 1h-7v-9h-6v9H6a1 1 0 0 1-1-1V14Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M22 7V4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span>
+          <div class="copy"><h3>HeyTowner</h3><p class="description">내 주변의 중고거래와 동네 커뮤니티</p><span class="domain">heytowner.com</span></div><span class="arrow" aria-hidden="true">↗</span>
+        </a></li>
+        <li><a class="project" href="https://mwgoblin.com" target="_blank" rel="noopener noreferrer" aria-label="MW GOBLIN — AI 기업분석 리포트와 주식 데이터 (새 탭)">
+          <span class="icon mw" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M6 25V7M6 25h21M11 19l6-7 5 3 5-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M23 7h4v4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          <div class="copy"><h3>MW GOBLIN</h3><p class="description">AI 기업분석 리포트와 주식 데이터</p><span class="domain">mwgoblin.com</span></div><span class="arrow" aria-hidden="true">↗</span>
+        </a></li>
+      </ul>
+    </section>
+    <footer><span>직접 만들고, 계속 다듬습니다.</span><span>Jongseon Woo</span></footer>
+  </main>
+</body>
+</html>
