@@ -1,13 +1,13 @@
 {
-  "version": "0.9.13",
+  "version": "0.9.14",
   "files": [
     {
-      "url": "https://github.com/verticalLine111/verticalLine111.github.io/releases/download/tuik-v0.9.13/Tuik-macOS-update.zip",
-      "sha512": "uIveZaIwQCcQLa0r5tBeHLJyVVl94gmx83kiXFz0ENGMWvpfPyguyln+gHYbu7A/G30qU7fMgptGw/wU+S6fUQ==",
-      "size": 256856882
+      "url": "https://github.com/verticalLine111/verticalLine111.github.io/releases/download/tuik-v0.9.14/Tuik-macOS-update.zip",
+      "sha512": "OzBs/YQxiv2w9yemFU3mMNq4VqpGLeUYLfFgFqPns7imAIN+oNrM7VWJStHI3/c/dBr8a20M9fNOnwMMYVr7yQ==",
+      "size": 256859598
     }
   ],
-  "path": "https://github.com/verticalLine111/verticalLine111.github.io/releases/download/tuik-v0.9.13/Tuik-macOS-update.zip",
-  "sha512": "uIveZaIwQCcQLa0r5tBeHLJyVVl94gmx83kiXFz0ENGMWvpfPyguyln+gHYbu7A/G30qU7fMgptGw/wU+S6fUQ==",
-  "releaseDate": "2026-11-12T08:16:01.302626+00:00"
+  "path": "https://github.com/verticalLine111/verticalLine111.github.io/releases/download/tuik-v0.9.14/Tuik-macOS-update.zip",
+  "sha512": "OzBs/YQxiv2w9yemFU3mMNq4VqpGLeUYLfFgFqPns7imAIN+oNrM7VWJStHI3/c/dBr8a20M9fNOnwMMYVr7yQ==",
+  "releaseDate": "2026-11-12T08:54:36.559082+00:00"
 }
