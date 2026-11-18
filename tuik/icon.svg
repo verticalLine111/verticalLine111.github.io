@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <title>Tuik — terminal and task queue</title>
+  <desc>An ink T with a detached terminal cursor on a warm ivory tile. The stem ends in two ordered blocks.</desc>
+  <rect x="96" y="96" width="832" height="832" rx="184" fill="#F2EEE6"/>
+  <path d="M256 272H768V400H576V608H448V400H256Z M448 656H576V784H448Z" fill="#25262C"/>
+  <path d="M640 656H768V784H640Z" fill="#D95832"/>
+</svg>
