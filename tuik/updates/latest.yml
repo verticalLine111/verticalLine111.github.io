@@ -1,13 +1,13 @@
 {
-  "version": "0.9.30",
+  "version": "0.9.31",
   "files": [
     {
-      "url": "https://github.com/verticalLine111/verticalLine111.github.io/releases/download/tuik-v0.9.30/Tuik-Windows-Setup.exe",
-      "sha512": "F+btmi51/b6tTZXLk+V4+lcQ495JzUZjBnl7mED3K5byMcaibRfQt/bm4VZpGDEvuJcNvjuR2VRzunWh9JE3iA==",
-      "size": 132946854
+      "url": "https://github.com/verticalLine111/verticalLine111.github.io/releases/download/tuik-v0.9.31/Tuik-Windows-Setup.exe",
+      "sha512": "JgZs4arCczCFpTUZdYhtg6yX2Ekaf8m7BJTrBpfYkT6KmD9DKYh2xeCzuIoY6lhVkSeEVOU2N6BkyuwKKkgwBQ==",
+      "size": 132949572
     }
   ],
-  "path": "https://github.com/verticalLine111/verticalLine111.github.io/releases/download/tuik-v0.9.30/Tuik-Windows-Setup.exe",
-  "sha512": "F+btmi51/b6tTZXLk+V4+lcQ495JzUZjBnl7mED3K5byMcaibRfQt/bm4VZpGDEvuJcNvjuR2VRzunWh9JE3iA==",
-  "releaseDate": "2026-11-19T05:06:46.376164+00:00"
+  "path": "https://github.com/verticalLine111/verticalLine111.github.io/releases/download/tuik-v0.9.31/Tuik-Windows-Setup.exe",
+  "sha512": "JgZs4arCczCFpTUZdYhtg6yX2Ekaf8m7BJTrBpfYkT6KmD9DKYh2xeCzuIoY6lhVkSeEVOU2N6BkyuwKKkgwBQ==",
+  "releaseDate": "2026-11-24T01:21:30.443499+00:00"
 }
