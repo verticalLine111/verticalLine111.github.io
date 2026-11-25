@@ -1,8 +1,8 @@
 {
   "platform": "android",
-  "version": "0.9.35",
-  "versionCode": 38,
-  "url": "https://github.com/verticalLine111/verticalLine111.github.io/releases/download/tuik-v0.9.35/Tuik-android-debug.apk",
-  "sha256": "72856fd35af2de9a897b5abeb76ec497fb1da00fa44c67249af614a82aa1ebb3",
-  "size": 42556472
+  "version": "0.9.37",
+  "versionCode": 39,
+  "url": "https://github.com/verticalLine111/verticalLine111.github.io/releases/download/tuik-v0.9.37/Tuik-android-debug.apk",
+  "sha256": "4d88358765230303350dc44736c57a6184ed073a4d9208a2b45a6b9a82bcf60b",
+  "size": 42604788
 }
